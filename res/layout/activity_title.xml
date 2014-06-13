@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <Button
+        android:id="@+id/beginTournamentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/tournamentButton" />
+
+    <Button
+        android:id="@+id/addRestaurantButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/beginTournamentButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/beginTournamentButton"
+        android:onClick="addRestaurants"
+        android:text="@string/addRestaurantButton" />
+
+    <TextView
+        android:id="@+id/tvNumberOfRests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Instructions:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/matchRestaurantTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvNumberOfRests"
+        android:gravity="center_vertical"
+        android:text="Select 2-64 restaurants, then decide which one you&apos;ll actually go to by pitting them against each other in a tournament style bracket!"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/matchRestaurantTwo"
+        android:layout_centerHorizontal="true"
+        android:text="{  }"
+        android:textSize="125sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</RelativeLayout>

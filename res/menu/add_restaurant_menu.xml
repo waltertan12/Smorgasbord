@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_add_restaurant"
+          android:icon="@drawable/ic_plus"
+          android:title="@string/action_add_restaurant"
+          android:showAsAction="ifRoom"/>
+</menu>

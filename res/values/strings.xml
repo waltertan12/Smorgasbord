@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bracketology</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="addRestaurantButton">Add Restaurants</string>
+    <string name="tournamentButton">Begin Tournament</string>
+    <string name="button1">Add Restaurant</string>
+    <string name="action_add_restaurant"></string>
+
+</resources>
